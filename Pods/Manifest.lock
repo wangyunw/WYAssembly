@@ -1,0 +1,22 @@
+PODS:
+  - Login (0.1.0):
+    - WYNetworking
+  - WYNetworking (0.1.0)
+
+DEPENDENCIES:
+  - Login (from `Lib/Login`)
+  - WYNetworking (from `Lib/WYNetworking`)
+
+EXTERNAL SOURCES:
+  Login:
+    :path: Lib/Login
+  WYNetworking:
+    :path: Lib/WYNetworking
+
+SPEC CHECKSUMS:
+  Login: a15f2b5964e8067628abac39e32052ba394b8489
+  WYNetworking: 7483f4a8db819e07c391a03a98db0dbe08d2640a
+
+PODFILE CHECKSUM: d97094136b26f25fb366102d4f40794cab8775ff
+
+COCOAPODS: 1.5.0

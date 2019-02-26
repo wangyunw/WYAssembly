@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1367E2929F0B6956F52941A1522FCDE6 /* Login-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6872EB243433197C7AB1E51A19F2010C /* Login-dummy.m */; };
+		16487361FB0C53E7A8B5239F80082AC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		197F2B31A65AF1DCF8A644113F2C3846 /* WYNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7FEEC938E4D8CF652C38373277EE7C /* WYNetworking.m */; };
+		3937B51DE8C4782E446A6521D961AF43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6CA700280CBDD87C6957424A6938CF83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8F081D7EC9380CD933EFA7588FCCDC57 /* Pods-WYAssemblyTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC60E2891AD0DBCBF761DE89FEE7A12 /* Pods-WYAssemblyTests-dummy.m */; };
+		A3FC248DD4CE5C6C007F5112C18F79AB /* LoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 21E1D1A81EE125DD85E90C7DC2D561F4 /* LoginViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B8B1D24E3E2C11A0BC84D96EF53F45E8 /* WYNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = BEECD4E975783369459E5DDC4831627A /* WYNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CCF69A06ECCEF7E9E49C4DDD8C593781 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D66A70B39E77BEFE0400146FEA8AE359 /* WYNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC24F17790566977E90E1D01F2DC3F4 /* WYNetworking-dummy.m */; };
+		FA7C7C21FE0C93A54271434DCFAFDA0B /* Pods-WYAssembly-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E352C3AE83706CF7481735179A6106 /* Pods-WYAssembly-dummy.m */; };
+		FD9151122F0DF0BD347CFB4BCFDD53BF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8F6F6B96CE227C304108BDAFD2B557 /* LoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D07DCB782FF263E8B8315596023B190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF5951E6805D80F3C1F100A06DBF4572;
+			remoteInfo = WYNetworking;
+		};
+		4D53EE4406ABAA27B41D5D7E3E3472AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0D68C7AF92B7B62EEA3EA81E9800C6E;
+			remoteInfo = Login;
+		};
+		8EC4FBBBCC45110A5B0131791006BDC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF5951E6805D80F3C1F100A06DBF4572;
+			remoteInfo = WYNetworking;
+		};
+		F85485E7B8750554B1B98033396C65F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00894B465F269960C1C9FA81112E4327;
+			remoteInfo = "Pods-WYAssembly";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CA92C222AF435137ED4B01D5C416AEA /* Login.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Login.podspec; sourceTree = "<group>"; };
+		1B78F69FF8DBD8615B3A2B9C73D1772B /* libPods-WYAssemblyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WYAssemblyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		212D21B6EC461FE5AEC1C3ADB5736863 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		21E1D1A81EE125DD85E90C7DC2D561F4 /* LoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Login/Classes/LoginViewController.h; sourceTree = "<group>"; };
+		2583F60BF818439381BBDD2BBD078CFC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		27103FD856807951A8DEDB7B78A31B90 /* Pods-WYAssemblyTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAssemblyTests-resources.sh"; sourceTree = "<group>"; };
+		3E17960914A8EF079045A09051A0CE77 /* Login.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Login.xcconfig; sourceTree = "<group>"; };
+		3E80E12AB9FCDDE32213028615EBB377 /* Pods-WYAssembly-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAssembly-resources.sh"; sourceTree = "<group>"; };
+		47004BF03515A78E04437E81449640C0 /* Pods-WYAssembly-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAssembly-frameworks.sh"; sourceTree = "<group>"; };
+		47C8FD3E5A74B3873617863DC26CC3EE /* libPods-WYAssembly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WYAssembly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6872EB243433197C7AB1E51A19F2010C /* Login-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Login-dummy.m"; sourceTree = "<group>"; };
+		797AD8774CAAE60934B9DD1465063DC5 /* Pods-WYAssembly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAssembly.debug.xcconfig"; sourceTree = "<group>"; };
+		7AC24F17790566977E90E1D01F2DC3F4 /* WYNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYNetworking-dummy.m"; sourceTree = "<group>"; };
+		7AC60E2891AD0DBCBF761DE89FEE7A12 /* Pods-WYAssemblyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYAssemblyTests-dummy.m"; sourceTree = "<group>"; };
+		7FB25C40919ACB0AB82010AEF7658D0E /* Pods-WYAssemblyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYAssemblyTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		83CCB5600FF198B966B1D561976EC4FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		86E352C3AE83706CF7481735179A6106 /* Pods-WYAssembly-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYAssembly-dummy.m"; sourceTree = "<group>"; };
+		8F7FEEC938E4D8CF652C38373277EE7C /* WYNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYNetworking.m; path = WYNetworking/Classes/WYNetworking.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C2D1275FF1DA1510E2EF4C326C9EF7B /* Pods-WYAssemblyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYAssemblyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A10A2BE855A88AC61441E8E915F462A4 /* Pods-WYAssemblyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAssemblyTests.release.xcconfig"; sourceTree = "<group>"; };
+		A99902D997558CF9766798C2D5A2A53F /* libLogin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLogin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8F6F6B96CE227C304108BDAFD2B557 /* LoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Login/Classes/LoginViewController.m; sourceTree = "<group>"; };
+		AF5C33E5E25683E558A90641ECF2218F /* Pods-WYAssemblyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAssemblyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3465B30798CFEF21C73509B2872DB66 /* WYNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYNetworking-prefix.pch"; sourceTree = "<group>"; };
+		B6306DF84139AE95F53A14565A316235 /* Login-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Login-prefix.pch"; sourceTree = "<group>"; };
+		BEECD4E975783369459E5DDC4831627A /* WYNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYNetworking.h; path = WYNetworking/Classes/WYNetworking.h; sourceTree = "<group>"; };
+		C48B8DFAB871A7BF1F62335F85653FE9 /* WYNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYNetworking.xcconfig; sourceTree = "<group>"; };
+		CCDDB3168F228C6BC1B8459989C64EE5 /* WYNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = WYNetworking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D46037F63338091FE8116E2592380B53 /* libWYNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWYNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4942835D24F4A148A7200A1D18F6317 /* Pods-WYAssembly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAssembly.release.xcconfig"; sourceTree = "<group>"; };
+		DADCA179A16533CC47DF56D1FB912160 /* Pods-WYAssembly-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYAssembly-acknowledgements.plist"; sourceTree = "<group>"; };
+		EEE189FBD70D6D8A286DCCC3FCEEC2DC /* Pods-WYAssembly-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYAssembly-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F89B1E7E864E2AEDAD799DDFCE8B6983 /* Pods-WYAssemblyTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAssemblyTests-frameworks.sh"; sourceTree = "<group>"; };
+		F921DFFFC00A39FDD703A7C40A60DC56 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39545708881A0E203815E86DAABE3452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16487361FB0C53E7A8B5239F80082AC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8650F718F05AFAAB74FBBF9B38492B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3937B51DE8C4782E446A6521D961AF43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC523185794276BA1AE654ADE795052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF69A06ECCEF7E9E49C4DDD8C593781 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8B579C947E648CD0D5176D0BA6751A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA700280CBDD87C6957424A6938CF83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BD89329865F8E62803862563EB1606C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				83CCB5600FF198B966B1D561976EC4FB /* LICENSE */,
+				0CA92C222AF435137ED4B01D5C416AEA /* Login.podspec */,
+				F921DFFFC00A39FDD703A7C40A60DC56 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1D03097DE6AE0779CA3A315E2BA05D33 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				212D21B6EC461FE5AEC1C3ADB5736863 /* LICENSE */,
+				2583F60BF818439381BBDD2BBD078CFC /* README.md */,
+				CCDDB3168F228C6BC1B8459989C64EE5 /* WYNetworking.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1D053DF0E2E5B77E3EFEF8A1A0A5C11B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A99902D997558CF9766798C2D5A2A53F /* libLogin.a */,
+				47C8FD3E5A74B3873617863DC26CC3EE /* libPods-WYAssembly.a */,
+				1B78F69FF8DBD8615B3A2B9C73D1772B /* libPods-WYAssemblyTests.a */,
+				D46037F63338091FE8116E2592380B53 /* libWYNetworking.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37DA7D8668B3AF113A7359C7FB3CE3C5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E17960914A8EF079045A09051A0CE77 /* Login.xcconfig */,
+				6872EB243433197C7AB1E51A19F2010C /* Login-dummy.m */,
+				B6306DF84139AE95F53A14565A316235 /* Login-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/Login";
+			sourceTree = "<group>";
+		};
+		7A712AEF30D41C049F2890BA9E720D81 /* Pods-WYAssemblyTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C2D1275FF1DA1510E2EF4C326C9EF7B /* Pods-WYAssemblyTests-acknowledgements.markdown */,
+				7FB25C40919ACB0AB82010AEF7658D0E /* Pods-WYAssemblyTests-acknowledgements.plist */,
+				7AC60E2891AD0DBCBF761DE89FEE7A12 /* Pods-WYAssemblyTests-dummy.m */,
+				F89B1E7E864E2AEDAD799DDFCE8B6983 /* Pods-WYAssemblyTests-frameworks.sh */,
+				27103FD856807951A8DEDB7B78A31B90 /* Pods-WYAssemblyTests-resources.sh */,
+				AF5C33E5E25683E558A90641ECF2218F /* Pods-WYAssemblyTests.debug.xcconfig */,
+				A10A2BE855A88AC61441E8E915F462A4 /* Pods-WYAssemblyTests.release.xcconfig */,
+			);
+			name = "Pods-WYAssemblyTests";
+			path = "Target Support Files/Pods-WYAssemblyTests";
+			sourceTree = "<group>";
+		};
+		7DAE74BC4E5CBCC0E4705BBDBDF0F3B8 /* Pods-WYAssembly */ = {
+			isa = PBXGroup;
+			children = (
+				EEE189FBD70D6D8A286DCCC3FCEEC2DC /* Pods-WYAssembly-acknowledgements.markdown */,
+				DADCA179A16533CC47DF56D1FB912160 /* Pods-WYAssembly-acknowledgements.plist */,
+				86E352C3AE83706CF7481735179A6106 /* Pods-WYAssembly-dummy.m */,
+				47004BF03515A78E04437E81449640C0 /* Pods-WYAssembly-frameworks.sh */,
+				3E80E12AB9FCDDE32213028615EBB377 /* Pods-WYAssembly-resources.sh */,
+				797AD8774CAAE60934B9DD1465063DC5 /* Pods-WYAssembly.debug.xcconfig */,
+				D4942835D24F4A148A7200A1D18F6317 /* Pods-WYAssembly.release.xcconfig */,
+			);
+			name = "Pods-WYAssembly";
+			path = "Target Support Files/Pods-WYAssembly";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A4F10B6A121D3B201093A057D2F00FD7 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1D053DF0E2E5B77E3EFEF8A1A0A5C11B /* Products */,
+				D6FE753FEDF2160C335D378597BABAFA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A4F10B6A121D3B201093A057D2F00FD7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBB53FC12F82BF40368D5FDBC517FDEF /* Login */,
+				AC06F1C23F1CDF84EACEC92F754FFFAB /* WYNetworking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AC06F1C23F1CDF84EACEC92F754FFFAB /* WYNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				BEECD4E975783369459E5DDC4831627A /* WYNetworking.h */,
+				8F7FEEC938E4D8CF652C38373277EE7C /* WYNetworking.m */,
+				1D03097DE6AE0779CA3A315E2BA05D33 /* Pod */,
+				D653FCDDA6B2459EC39CBE75068ADE6F /* Support Files */,
+			);
+			name = WYNetworking;
+			path = ../Lib/WYNetworking;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D653FCDDA6B2459EC39CBE75068ADE6F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C48B8DFAB871A7BF1F62335F85653FE9 /* WYNetworking.xcconfig */,
+				7AC24F17790566977E90E1D01F2DC3F4 /* WYNetworking-dummy.m */,
+				B3465B30798CFEF21C73509B2872DB66 /* WYNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/WYNetworking";
+			sourceTree = "<group>";
+		};
+		D6FE753FEDF2160C335D378597BABAFA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DAE74BC4E5CBCC0E4705BBDBDF0F3B8 /* Pods-WYAssembly */,
+				7A712AEF30D41C049F2890BA9E720D81 /* Pods-WYAssemblyTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DBB53FC12F82BF40368D5FDBC517FDEF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				21E1D1A81EE125DD85E90C7DC2D561F4 /* LoginViewController.h */,
+				AC8F6F6B96CE227C304108BDAFD2B557 /* LoginViewController.m */,
+				0BD89329865F8E62803862563EB1606C /* Pod */,
+				37DA7D8668B3AF113A7359C7FB3CE3C5 /* Support Files */,
+			);
+			name = Login;
+			path = ../Lib/Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D6C670049468C4D064061015CF80CEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FC248DD4CE5C6C007F5112C18F79AB /* LoginViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFAB202961C780D3E1727C8C7000D21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B1D24E3E2C11A0BC84D96EF53F45E8 /* WYNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00894B465F269960C1C9FA81112E4327 /* Pods-WYAssembly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 027AA2F7910A2DA520A34F1858E49682 /* Build configuration list for PBXNativeTarget "Pods-WYAssembly" */;
+			buildPhases = (
+				6329FC0630CF1545ACDFDA6845652664 /* Sources */,
+				EF8B579C947E648CD0D5176D0BA6751A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46C219F9719295AE5C0D5FB002A4A1B3 /* PBXTargetDependency */,
+				1BF838917578730512D6214D7084117B /* PBXTargetDependency */,
+			);
+			name = "Pods-WYAssembly";
+			productName = "Pods-WYAssembly";
+			productReference = 47C8FD3E5A74B3873617863DC26CC3EE /* libPods-WYAssembly.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4E983C7C27FFBF306C75D37BA7130855 /* Pods-WYAssemblyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB469E2DE62669DB68231F20D5224129 /* Build configuration list for PBXNativeTarget "Pods-WYAssemblyTests" */;
+			buildPhases = (
+				1CE989969942B57ADAEAF0C6D13569CA /* Sources */,
+				39545708881A0E203815E86DAABE3452 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1384678AF8DDA07361F78F080EA005C /* PBXTargetDependency */,
+			);
+			name = "Pods-WYAssemblyTests";
+			productName = "Pods-WYAssemblyTests";
+			productReference = 1B78F69FF8DBD8615B3A2B9C73D1772B /* libPods-WYAssemblyTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AF5951E6805D80F3C1F100A06DBF4572 /* WYNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E32A7F1C4D73F4233EDDA156D04A07 /* Build configuration list for PBXNativeTarget "WYNetworking" */;
+			buildPhases = (
+				2DBC0B80D4518D8B25A00B76A4570F81 /* Sources */,
+				8650F718F05AFAAB74FBBF9B38492B57 /* Frameworks */,
+				DFFAB202961C780D3E1727C8C7000D21 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYNetworking;
+			productName = WYNetworking;
+			productReference = D46037F63338091FE8116E2592380B53 /* libWYNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C0D68C7AF92B7B62EEA3EA81E9800C6E /* Login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78453BF5E6FE7600847564D0F417CC4A /* Build configuration list for PBXNativeTarget "Login" */;
+			buildPhases = (
+				8D9CE1C5E64BD1E6D7D30A7B1CB4B698 /* Sources */,
+				DDC523185794276BA1AE654ADE795052 /* Frameworks */,
+				0D6C670049468C4D064061015CF80CEF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D03CA1192EA155BEF10894E7111B2889 /* PBXTargetDependency */,
+			);
+			name = Login;
+			productName = Login;
+			productReference = A99902D997558CF9766798C2D5A2A53F /* libLogin.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1D053DF0E2E5B77E3EFEF8A1A0A5C11B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0D68C7AF92B7B62EEA3EA81E9800C6E /* Login */,
+				00894B465F269960C1C9FA81112E4327 /* Pods-WYAssembly */,
+				4E983C7C27FFBF306C75D37BA7130855 /* Pods-WYAssemblyTests */,
+				AF5951E6805D80F3C1F100A06DBF4572 /* WYNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CE989969942B57ADAEAF0C6D13569CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F081D7EC9380CD933EFA7588FCCDC57 /* Pods-WYAssemblyTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBC0B80D4518D8B25A00B76A4570F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66A70B39E77BEFE0400146FEA8AE359 /* WYNetworking-dummy.m in Sources */,
+				197F2B31A65AF1DCF8A644113F2C3846 /* WYNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6329FC0630CF1545ACDFDA6845652664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7C7C21FE0C93A54271434DCFAFDA0B /* Pods-WYAssembly-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9CE1C5E64BD1E6D7D30A7B1CB4B698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1367E2929F0B6956F52941A1522FCDE6 /* Login-dummy.m in Sources */,
+				FD9151122F0DF0BD347CFB4BCFDD53BF /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BF838917578730512D6214D7084117B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WYNetworking;
+			target = AF5951E6805D80F3C1F100A06DBF4572 /* WYNetworking */;
+			targetProxy = 1D07DCB782FF263E8B8315596023B190 /* PBXContainerItemProxy */;
+		};
+		46C219F9719295AE5C0D5FB002A4A1B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Login;
+			target = C0D68C7AF92B7B62EEA3EA81E9800C6E /* Login */;
+			targetProxy = 4D53EE4406ABAA27B41D5D7E3E3472AE /* PBXContainerItemProxy */;
+		};
+		D03CA1192EA155BEF10894E7111B2889 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WYNetworking;
+			target = AF5951E6805D80F3C1F100A06DBF4572 /* WYNetworking */;
+			targetProxy = 8EC4FBBBCC45110A5B0131791006BDC2 /* PBXContainerItemProxy */;
+		};
+		E1384678AF8DDA07361F78F080EA005C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WYAssembly";
+			target = 00894B465F269960C1C9FA81112E4327 /* Pods-WYAssembly */;
+			targetProxy = F85485E7B8750554B1B98033396C65F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2893FE8A71EEB2D31DD4FD4D01100CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E17960914A8EF079045A09051A0CE77 /* Login.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Login/Login-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Login;
+				PRODUCT_NAME = Login;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5099E2FB4374A4BC7C448FE76BE5BC2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A10A2BE855A88AC61441E8E915F462A4 /* Pods-WYAssemblyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		719C27A63BD03F2FF6CA7C1395A2FDB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4942835D24F4A148A7200A1D18F6317 /* Pods-WYAssembly.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F8EFED4DB258C80E4762CEC48417551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E17960914A8EF079045A09051A0CE77 /* Login.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Login/Login-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Login;
+				PRODUCT_NAME = Login;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FE9091CCCC0E78ECA20ED2A788BBA77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF5C33E5E25683E558A90641ECF2218F /* Pods-WYAssemblyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83617ADFC5B95175D6AA8874EA8092FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 797AD8774CAAE60934B9DD1465063DC5 /* Pods-WYAssembly.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD8324D57CD462761E218EEA4EA91EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DD5DA1B42D7ACAAD87557374C8149141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C48B8DFAB871A7BF1F62335F85653FE9 /* WYNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WYNetworking/WYNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WYNetworking;
+				PRODUCT_NAME = WYNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E74654BEC873022FA7046FC33AB302E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C48B8DFAB871A7BF1F62335F85653FE9 /* WYNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WYNetworking/WYNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WYNetworking;
+				PRODUCT_NAME = WYNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		027AA2F7910A2DA520A34F1858E49682 /* Build configuration list for PBXNativeTarget "Pods-WYAssembly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83617ADFC5B95175D6AA8874EA8092FB /* Debug */,
+				719C27A63BD03F2FF6CA7C1395A2FDB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */,
+				CD8324D57CD462761E218EEA4EA91EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78453BF5E6FE7600847564D0F417CC4A /* Build configuration list for PBXNativeTarget "Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2893FE8A71EEB2D31DD4FD4D01100CF8 /* Debug */,
+				7F8EFED4DB258C80E4762CEC48417551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7E32A7F1C4D73F4233EDDA156D04A07 /* Build configuration list for PBXNativeTarget "WYNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74654BEC873022FA7046FC33AB302E8 /* Debug */,
+				DD5DA1B42D7ACAAD87557374C8149141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB469E2DE62669DB68231F20D5224129 /* Build configuration list for PBXNativeTarget "Pods-WYAssemblyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE9091CCCC0E78ECA20ED2A788BBA77 /* Debug */,
+				5099E2FB4374A4BC7C448FE76BE5BC2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
